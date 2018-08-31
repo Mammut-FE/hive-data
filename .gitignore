@@ -67,3 +67,4 @@ typings/
 # Out
 src/*.js
 src/*.js.map
+out-ts

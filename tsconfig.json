@@ -3,7 +3,8 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "out-ts"
   },
   "exclude": ["node_modules"]
 }
