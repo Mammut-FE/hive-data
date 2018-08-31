@@ -1,0 +1,23 @@
+{
+  "name": "@lleohao/monaco-editor-helper",
+  "version": "0.0.1",
+  "description": "monaco editor helper",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mammut-FE/monaco-editor-helper.git"
+  },
+  "author": "lleohao <lleohao@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mammut-FE/monaco-editor-helper/issues"
+  },
+  "homepage": "https://github.com/Mammut-FE/monaco-editor-helper#readme",
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "typescript": "^3.0.3"
+  }
+}
