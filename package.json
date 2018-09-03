@@ -1,10 +1,15 @@
 {
-  "name": "@lleohao/monaco-editor-helper",
+  "name": "@mammut-fe/monaco-editor-helper",
   "version": "0.0.1",
   "description": "monaco editor helper",
   "files": ["data"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w",
+    "build:code": "rm -rf out-ts; tsc",
+    "prebuild:data": "npm run build:code",
+    "build:data": "node out-ts/index.js",
+    "prepublish": "npm run build:data"
   },
   "repository": {
     "type": "git",

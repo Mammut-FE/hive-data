@@ -45,7 +45,7 @@ const builtInFunction = {
     ]
 };
 
-export function generateKeyword() {
+export function generateBuiltInFunction() {
     const $ = getDocument(builtInFunction.htmlName);
 
     const result = builtInFunction.targetIds.reduce((prev, id) => {

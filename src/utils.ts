@@ -3,7 +3,7 @@ import * as fs from "fs";
 import * as path from "path";
 
 export function getDocument(name: string): CheerioStatic {
-    return cheerio.load(fs.readFileSync(path.join(__dirname, "./html/" + name)).toString());
+    return cheerio.load(fs.readFileSync(path.join(__dirname, "../rawData/" + name)).toString());
 }
 
 export function dump(data: any, name) {
@@ -15,4 +15,14 @@ export function dump(data: any, name) {
     }
 
     fs.writeFileSync(filePath, str);
+}
+
+export function setToArray(set: Set<string>): string[] {
+    let result = [];
+
+    set.forEach(_ => {
+        result.push(_);
+    });
+
+    return result;
 }
