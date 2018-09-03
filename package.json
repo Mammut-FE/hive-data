@@ -1,8 +1,11 @@
 {
   "name": "@mammut-fe/hive-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "monaco editor helper",
-  "files": ["data"],
+  "files": [
+    "data",
+    "declation.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -w",
