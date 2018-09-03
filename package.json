@@ -1,6 +1,6 @@
 {
-  "name": "@mammut-fe/monaco-editor-helper",
-  "version": "0.0.1",
+  "name": "@mammut-fe/hive-data",
+  "version": "0.1.0",
   "description": "monaco editor helper",
   "files": ["data"],
   "scripts": {
