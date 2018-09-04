@@ -2,17 +2,17 @@
   "name": "@mammut-fe/hive-data",
   "version": "0.1.1",
   "description": "monaco editor helper",
+  "main": "lib/index.js",
+  "types": "typings.d.ts",
   "files": [
-    "data",
-    "declation.d.ts"
+    "lib",
+    "src/typings.d.ts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -w",
-    "build:code": "rm -rf out-ts; tsc",
-    "prebuild:data": "npm run build:code",
-    "build:data": "node out-ts/index.js",
-    "prepublish": "npm run build:data"
+    "build": "gulp",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,12 +26,14 @@
   "homepage": "https://github.com/Mammut-FE/monaco-editor-helper#readme",
   "devDependencies": {
     "@types/node": "^10.9.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-run": "^1.7.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
     "typescript": "^3.0.3"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.9",
-    "@types/request": "^2.47.1",
-    "cheerio": "^1.0.0-rc.2",
-    "request": "^2.88.0"
+    "cheerio": "^1.0.0-rc.2"
   }
 }

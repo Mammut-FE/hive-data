@@ -65,6 +65,5 @@ typings/
 .vscode
 
 # Out
-src/*.js
-src/*.js.map
-out-ts
+/out-ts
+/lib

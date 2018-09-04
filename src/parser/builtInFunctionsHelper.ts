@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import {dump, getDocument} from "../utils";
-import {IKeyword} from "../index";
+import {IKeyword} from "../../typings";
 
 export function getKeywordInfoList(tableElement: CheerioElement[]): IKeyword[] {
     const result = [];

@@ -1,4 +1,4 @@
-import {IKeyword} from "../index";
+import {IKeyword} from "../../typings";
 import {dump, setToArray} from "../utils";
 import keyword from "./keyword.data";
 
