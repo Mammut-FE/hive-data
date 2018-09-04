@@ -1,6 +1,6 @@
 {
   "name": "@mammut-fe/hive-data",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "monaco editor helper",
   "main": "lib/index.js",
   "types": "typings.d.ts",
